@@ -120,6 +120,7 @@ multiplyByTwo('3');   // ошибка с кодом INVALID_ARGUMENT
 
 Подсказка: https://en.wikipedia.org/wiki/Depth-first_search
 
+<pre>
 Пример графа:
             A 
           /   \ 
@@ -137,6 +138,8 @@ const graph = {
     F: [],
     G: [],
 };
+</pre>
+
 Ошибки, которые должны быть обработаны:
 
 Переданный аргумент не объект. Код ошибки INVALID_ARGUMENT.
@@ -150,6 +153,7 @@ dfs('{}') // ошибка с кодом INVALID_ARGUMENT
 
 Подсказка: https://en.wikipedia.org/wiki/Breadth-first_search
 
+<pre>
 Пример графа:
             A 
           /   \ 
@@ -167,6 +171,8 @@ const graph = {
     F: [],
     G: [],
 };
+</pre>
+
 Ошибки, которые должны быть обработаны:
 
 Переданный аргумент не объект. Код ошибки INVALID_ARGUMENT.
